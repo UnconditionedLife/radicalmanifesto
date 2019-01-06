@@ -159,6 +159,7 @@ blockquote {
 	height: calc(100vh - 70px);
 	overflow-y: scroll;
 	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
 }
 
 .section {
