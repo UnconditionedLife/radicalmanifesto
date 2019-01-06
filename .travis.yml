@@ -3,7 +3,8 @@ node_js:
   - "lts/*"
 deploy:
   provider: s3
-  access_key_id: AKIAI6GVPXUUT6YGSQUA
+  access_key_id: "AKIAI6GVPXUUT6YGSQUA"
   secret_access_key:
     secure: zC8yMAXh8WEfK71YFlNpY4UriseBQcHNbsU50h7H/TmvoQZWaWYTgcYjdhrF6iDLk7xg0BrXfQytC42Rg7tewCdmku8r6qiytP7v9cVNoTnq8cGShJFMS2xehcW8gMxiCA7NbYtzi1uptPBozCnqYnTgNIqDis57Zf9x8exM759fanPeEhl6TirARcdmxeivZrJwCZv6MdEFpGB8KDLuSYPBbJeFbTICRwB9kycpLU9YYwfGMaNaNkQB6u2JkCH4nN4URPrOtmI2iQw3o/mG3O8KOCzu2U2eIl0LUJchw5eN6dbxFvORs6CZCKVAFoGYRuwD3UtBFCETFZhZ74x2YGuj9oyBeaLex7KvOgwNPEpAhs08ufMJg2ZsLWGZZS8D9AAj319lizEQFEP+g/o4ldrIov6839/vTXz9R4/UvuJtcht4pyfcpsLtK6ZPU1z32rhKQ0UjjVBTBWx/AkaoNwZZBbGrJgTclUgxmgy/4yyErAlUykwGhw0L7zaVXgq3i08a6cV+XvZ1GD4mUBdWSmBhsZE/Sq7cum4y6GpgPMVAvCtkx5b1pxcS/k/CbFXKCc5CP5fhqhUX48qEIurzA09QOkjISUAE5ucH3CbCsgnk39rFZBdkayXdCIYIRa1reFDhMxgCYujkgESokphidHn0e1+TZeKbS/JlP8EKB2E=
-  bucket: radicalmanifesto.org
+  bucket: "radicalmanifesto.org"
+  acl: public_read
