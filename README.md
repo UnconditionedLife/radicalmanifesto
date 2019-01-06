@@ -1,1 +1,2 @@
-# radicalmanifesto
+# Radical Manifesto Website
+## radicalmanifesto.org
