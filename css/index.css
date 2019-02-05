@@ -204,6 +204,14 @@ blockquote {
 }
 
 
+.list {
+  text-align: left;
+  li {
+    margin-bottom: 0.6em;
+  }
+}
+
+
 /* .contactImage {
 	width: 95%;
 	height: 95%;
