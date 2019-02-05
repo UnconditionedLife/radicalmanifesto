@@ -206,9 +206,9 @@ blockquote {
 
 .list {
   text-align: left;
-  li {
-    margin-bottom: 0.6em;
-  }
+}
+.list li {
+  margin-bottom: 0.6em;
 }
 
 
