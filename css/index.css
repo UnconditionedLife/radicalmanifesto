@@ -183,6 +183,19 @@ blockquote {
 	margin: 40px 0 40px 0;
 }
 
+.highlight1 {
+	font-size: 1.2em;
+	/*font-weight: bold;*/
+	margin: 10px 0 0 0;
+}
+
+.highlight2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #2cc0d4;
+	margin: 10px 0 0 0;
+}
+
 .shadow {
     /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
   -webkit-filter: drop-shadow( 4px 4px 4px #111 );
